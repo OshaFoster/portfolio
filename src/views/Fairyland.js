@@ -20,15 +20,15 @@ function Fairyland(){
 
         </div>
         <div className="midDiv">
-                <a href="https://fairyland.herokuapp.com/" className="resumeLink
+                <a href="https://fairyland.herokuapp.com/"  target="_blank" rel="noopener noreferrer" className="resumeLink
                 "><span className="appLink">View App</span></a>
-            <a href="https://github.com/arleswall/fairyland" className="resumeLink
+            <a href="https://github.com/OshaFoster/fairyland"  target="_blank" rel="noopener noreferrer" className="resumeLink
             "><span className="appLink">View Code</span></a>
         </div>
         <div className="Div2">
             <h3 className="titleView">Fairyland Cupcake Shop</h3>
         <p className="description"> Single Page Application- Features: Integration with PayPal; automatic e-mail response; order management system; user authentication(/admin)
-                <br></br>Built with: JavaScript, ReactJs, Redux, Node.js, Express, MongoDB, HTML, CSS</p>
+                <br></br>Built with: <span className="languages">JavaScript, ReactJs, Redux, Node.js, Express, MongoDB, HTML, CSS</span></p>
         </div>
         <div className="bottomDiv">
             <span><Link className="homeLink" to="/"><span>

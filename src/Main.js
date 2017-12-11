@@ -9,7 +9,11 @@ function Main() {
         <div className="parent">
             <div className="about">
                 <h3>About:</h3>
-                <p>Graduate of VSchool where I completed 500 hrs of intensive web development training with a focus on: JavaScript React.JS Redux Express NodeJS MongoDB HTML5 CSS3.
+            <p>Graduate of VSchool where I completed 500 hours of intensive web development training with a focus on: <br></br>
+
+        <span className="languages" >JavaScript, React.JS, Redux, Express, NodeJS, MongoDB, HTML5, CSS3.</span><br></br>
+
+   Learning to code is a continual process. I like that programming principles build on themselves, and there is always something to learn.
                 </p>
             </div>
             <div className="titleProjects">Projects:</div>

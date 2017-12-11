@@ -17,17 +17,16 @@ function RecipeBox(){
 
         </div>
         <div className="midDiv">
-                <a href="https://osha-final-project.herokuapp.com/" className="resumeLink
+                <a href="https://osha-recipe-box.herokuapp.com/"  target="_blank" rel="noopener noreferrer" className="resumeLink
                 "><span className="appLink">View App</span></a>
-            <a href="https://github.com/OshaFoster/final-project" className="resumeLink
+            <a href="https://github.com/OshaFoster/final-project"  target="_blank" rel="noopener noreferrer" className="resumeLink
             "><span className="appLink">View Code</span></a>
         </div>
         <div className="Div2">
             <h3 className="titleView">Good Food Recipe Box</h3>
-            <p> Fairyland Cupcake Shop: https://fairyland.herokuapp.com/
-            Single Page Application- Features: Integrated with PayPal; automatic e-mail response; order management system; user authentication(/admin)
-            Built with: JavaScript, ReactJs, Redux, Node.js, Express, MongoDB, HTML, CSS
-            Thisi ssis oshiohfios oshfiod sdofhdosh sdofh dsofi fjoisdfjo </p>
+        <p className="description"> Single Page Application - Features:  Add, Edit, Link To, Search and Delete.
+                <br></br>Built with:<span className="languages">  JavaScript, ReactJs, Redux, Node.js, Express, MongoDB, HTML, CSS</span>
+            </p>
         </div>
         <div className="bottomDiv">
             <span><Link className="homeLink" to="/"><span>

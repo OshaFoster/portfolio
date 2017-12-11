@@ -2,34 +2,41 @@
     background: url(https://images.unsplash.com/photo-1470290565452-494169ca14be?auto=format&fit=crop&w=1650&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat;
     background-size: cover;
     background-position: 0% 5%;
-    height:380px;
+    height:370px;
     width: auto;
     border-top: 1px solid gray;
 }
 
 .name {
-    height: 280px;
+    height: 270px;
     padding-top: 20px;
-    font-size: 3em;
-    margin-left: 110px;
-    font-family: 'Bad Script', cursive;
+    font-size: 3.5em;
+    margin-left: 120px;
+    font-family: 'Satisfy', cursive;
     color: #F9F8F6;
-
+}
+.languages {
+    color: #FFB229;
 }
 
 @media (max-width: 599px) {
   .name  {
       margin-left: 10px;
-      padding-top: 0px;
+      padding-top: 20px;
       font-size: 2em;
 
+  }
+  .about {
+      overflow: scroll;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
   .name {
       margin-left: 30px;
       padding-top: 30px;
-      font-size: 2em;
+   }
+   .about {
+       overflow: scroll;
    }
 
 }
@@ -63,14 +70,13 @@ span {
 }
 
 .parent {
-    height: 800px;
+    height: 700px;
     background-color: #F9F8F6;
 
-    /*border-top: 1px solid gray;*/
 }
 
 .about {
-    height: 350px;
+    height: 250px;
     width: 100%;
     background-color: #F7FDF9;
     margin-top: 25px;
@@ -81,7 +87,9 @@ span {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 40px;
+    padding-top: 20px;
+    line-height: 150%;
 
 }
 p {
@@ -129,7 +137,7 @@ p {
     padding-top: 30px;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1230px) {
   .imageDiv {
       height:220px;
       width:340px;
@@ -205,7 +213,7 @@ p {
   .name {
       margin-left: 30px;
       padding-top: 30px;
-      font-size: 2em;
+      font-size: 2.5em;
    }
 
 }
@@ -343,7 +351,7 @@ p {
 .homeLink {
     text-decoration: none;
     margin-top: 12px;
-    color: #FFB229;
+    color: #443720;
 }
 .resume:hover {
     color:blue;
