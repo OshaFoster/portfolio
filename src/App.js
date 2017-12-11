@@ -12,7 +12,6 @@ function App() {
     return (
 
         <div>
-        <div>hello</div>;
         <Header/>
     <Switch>
         <Route exact path="/" component={Main}/>
