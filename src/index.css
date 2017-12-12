@@ -17,6 +17,7 @@
 }
 .languages {
     color: #FFB229;
+    font-size: 32px;
 }
 
 
@@ -74,7 +75,7 @@ span {
 }
 
 .parent {
-    height: 900px;
+    height: 950px;
     background-color: #F9F8F6;
 
 }
@@ -84,7 +85,7 @@ span {
     width: 100%;
     background-color: #F7FDF9;
     margin-top: 35px;
-    text-align: center;
+    text-align: left;
     font-family: 'Amatic SC', cursive;
     font-size: 18px;
     color: #443720;
@@ -94,12 +95,15 @@ span {
     padding: 60px;
     padding-top: 20px;
     line-height: 140%;
+    overflow: scroll;
 }
 .abouttitle{
     font-family: 'Amatic SC', cursive;
     font-size: 22px;
     color: #443720;
-
+}
+.grad{
+    font-size: 22px;
 }
 p {
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -117,8 +121,9 @@ p {
     font-family: 'Amatic SC', cursive;
     font-size: 26px;
     color: #443720;
-    height: 40px;
-    margin-top: 20px;
+    height: 50px;
+    background-color: #F9F8F6;
+    padding-top: 20px;
 }
 
 .projectDiv {
