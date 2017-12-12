@@ -11,7 +11,7 @@ function Main() {
             <div className="projectDiv">
                 <div className="fairyland">
                     <div className="imageDiv">
-                        <img className="fairylandImage" src={fairyHome} alt="image1"/>
+                        <Link to="/fairyland"><img className="fairylandImage" src={fairyHome} alt="image1"/></Link>
                     </div>
                     <div className="projectTitleDiv">
                         <Link className="link" to="/fairyland"><h3 className="projectTitle">
@@ -20,7 +20,7 @@ function Main() {
                 </div>
                 <div className="recipeBox">
                     <div className="imageDiv">
-                        <img className="recipeBoxImage" src={recipeBox} alt="image2"/>
+                        <Link to="/recipeBox"><img className="recipeBoxImage" src={recipeBox} alt="image2"/></Link>
                     </div>
                     <div className="projectTitleDiv">
                         <Link className="link" to="/recipeBox"> <h3 className="projectTitle">
@@ -38,7 +38,7 @@ function Main() {
     <p>Learning to code is a continual process. I like that programming principles build on themselves, and there is always
         something to learn. I worked independently as landscape gardener for years, and there were often large projects that
         needed to be considered and pared down to manageable assignments. I am finding a similar experience in web development:
-        taking large tasks and breaking them into approachable pieces. <br></br>I enjoyed the experience of working with my
+        taking large tasks and breaking them into approachable pieces. <br></br></p><p>I enjoyed the experience of working with my
         classmates (at times pair-programming) while building apps. I experienced the benefit of having two sets of eyes on the
         code. I found it interesting, joining someone else on a project where I had to familiarize myself with their code. I
         felt the process of collaboration often helped us move through problems efficiently. Working in teams, we started our
