@@ -1,5 +1,7 @@
 #Osha's Portfolio!
 
-Please look around!
+A basic introduction to Osha as web developer!
 
-Built using: React, HTML, CSS.
+Have a look around!
+
+Built With: React, HTML, CSS.
