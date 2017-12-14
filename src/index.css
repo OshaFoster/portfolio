@@ -10,9 +10,9 @@
 .name {
     height: 270px;
     padding-top: 20px;
-    font-size: 3.5em;
+    font-size: 3em;
     margin-left: 120px;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Bad Script', cursive;
     color: #F9F8F6;
 }
 .languages {
@@ -75,7 +75,7 @@ span {
 }
 
 .parent {
-    height: 975px;
+    height: 970px;
     background-color: #F9F8F6;
 
 }

@@ -2,7 +2,6 @@ import React from "react"
 import {Link} from "react-router-dom"
 const fairyHome = require("./images/fairylandHome.jpg")
 const recipeBox = require("./images/recipeBox.jpg")
-// const recipeSearch =require("./images/recipeSearch.jpg")
 
 function Main() {
     return (
